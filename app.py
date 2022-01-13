@@ -47,7 +47,7 @@ def refresh_plots():
         x = np.array(years)
         y = np.array(datas)
         plt.bar(x,y, color = countriesdata[country]["Color"])
-        plt.savefig(f'./static/images/hbars3_{count}.png')
+        plt.savefig('./static/images/hbars3_{count}.png')
         plt.show()
         count+=1
     
